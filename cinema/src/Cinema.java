@@ -23,7 +23,6 @@ public class Cinema {
         while (controlFlag) {
             controlFlag = chooseAction(seatGrid);
         }
-
     }
 
     static boolean chooseAction(char[][] seatGrid) {
